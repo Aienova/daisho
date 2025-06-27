@@ -1,0 +1,41 @@
+.black-text{
+
+    color:black;
+}
+
+
+.white-text{
+
+    color:white;
+}
+
+.bluebox{
+    background-color: #1b96c3;
+    color: white;
+    padding: 2px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.redbox{
+    background-color: #ff0000;
+    color: white;
+    padding: 2px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.orangebox{
+    background-color: #ff8c00;
+    color: white;
+    padding: 2px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.darkBackground {
+    background-color: rgba(0, 0, 0, 0.53);
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    z-index: 11111111111;
+    left: 0px;
+}

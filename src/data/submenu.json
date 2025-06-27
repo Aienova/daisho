@@ -1,0 +1,37 @@
+
+{
+          "menuItems":  [
+            {
+                "id": "item-1",
+                "label": "Classic",
+                "img": "/media/images/origami.png",
+                "dataFamily": "menu",
+                "dataItem": "menu-classic"
+            },
+            {
+                "id": "item-2",
+                "label": "Corner-left",
+                "img": "/media/images/origami.png",
+                "dataFamily": "menu",
+                "dataItem": "menu-corner-left"
+            },
+            {
+                "id": "item-3",
+                "label": "Corner-right",
+                "img": "/media/images/origami.png",
+                "dataFamily": "menu",
+                "dataItem": "menu-corner-right"
+            },
+            {
+                "id": "item-4",
+                "label": "eCommerce",
+                "img": "/media/images/origami.png",
+                "dataFamily": "menu",
+                "dataItem": "menu-ecommerce"
+                }
+            ]
+
+            
+
+
+}

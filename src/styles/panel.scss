@@ -1,0 +1,136 @@
+$panel-width: 144px;
+
+#origami-panel{
+
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    background-color: #a09e9e;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+    z-index: 11111;
+
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        width: $panel-width;
+        height: 100%;
+    }
+
+    li {
+        display: flex;
+        align-items: center;
+        gap: 8px; /* espace entre l'icône et le texte */
+        padding: 12px 12px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+
+    li:hover{
+
+        .submenu {
+            
+            display: block;
+        }
+    }
+
+    .submenu {
+        width: 50em;
+        background-color: #1b96c3;
+        display: none;
+        height: 100%;
+        width: 20em;
+        position: fixed;
+        top: 0;
+        left: 9em;
+    }
+
+    .item{
+
+        max-width: 100px;
+    }
+
+
+} 
+
+
+.top-menu-margin{
+
+    margin-top:2em;
+}
+
+
+nav#origami-menu-top {
+    width: 100%;
+    height: 2em;
+    position: fixed;
+    background-color: black;
+    z-index: 11;
+   padding-left: 10em;
+}
+
+.quick-edit-panel{
+
+    background-color: black;
+    width: 100%;
+    color: white;
+    position: absolute;
+    display: none;
+    top:0;
+}
+
+
+.quick-edit-panel:hover{
+
+    background-color: black;
+    color: white;
+    position: absolute;
+    top:0;
+}
+
+    .view-item{
+
+        position: relative;
+
+
+    }
+
+
+
+.material-symbols-outlined {
+    font-size: 20px; /* taille des icônes */
+    line-height: 1;
+}
+
+
+    #origami-preview {
+
+        background-color: #d5d1d1;
+        margin-left: 144px;
+        min-height: 50em;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+
+
+    .view-item:hover{
+
+
+        .quick-edit-panel{
+
+            display:block
+        }
+
+
+    }
+
+
+    div#panel-space {
+    width: $panel-width;
+}

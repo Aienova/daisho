@@ -1,0 +1,60 @@
+.centralizer{
+
+    display: flex;
+    justify-content: center;  /* Centre horizontalement */
+    align-items: center;      /* Centre verticalement */
+    box-sizing: border-box;
+    flex: 1;
+    text-align: center;
+
+}
+
+.center{
+
+    display: flex;
+    align-items: center;      /* Centre verticalement */
+    box-sizing: border-box;
+    flex: 1;
+    text-align: center;
+
+}
+
+
+.righter{
+
+    display: flex;
+    justify-content: right;  /* Centre horizontalement */
+    align-items: right;      /* Centre verticalement */
+    box-sizing: border-box;
+    flex: 1;
+    text-align: center;
+
+}
+
+
+.central-text{
+
+    text-align: center;
+
+}
+
+
+
+
+
+.inliner{
+
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    margin: auto;
+    box-sizing: border-box;
+
+    li{
+
+        list-style: none;
+    }
+
+}

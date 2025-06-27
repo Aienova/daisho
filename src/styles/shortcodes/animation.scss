@@ -1,0 +1,20 @@
+@keyframes borderColorCycle {
+    0%   { border-color: #00ff00; }
+    50%  { border-color: #0099ff; }
+    100% { border-color: #00ff00; }
+}
+
+.preview-border-animate  {
+    border: solid 7px #00ff00;
+    animation: borderColorCycle 1.5s linear infinite;
+    transition: border 0.3s;
+}
+
+
+.view-item:hover {
+
+    border: solid 7px #00ff00;
+    animation: borderColorCycle 1.5s linear infinite;
+    transition: border 0.3s;
+
+}
